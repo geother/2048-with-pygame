@@ -180,7 +180,7 @@ def mainLoop():
                 screen.blit(playingText, calTextPos(playingText, (0, 0, blockW * 4, blockW)))
             pygame.display.flip()
             opt = 0
-        clock.tick(100)
+        clock.tick(60)
     pygame.display.flip()
 
 
